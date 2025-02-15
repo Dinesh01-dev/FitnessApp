@@ -17,9 +17,9 @@ const Fitness = () => {
                   }
             } )
                 
-           const data=await response.json()
-           setexcercises(data)
-           console.log(data)
+           const dataE=await response.json()
+           setexcercises(dataE)
+           console.log(dataE)
 
         }
         catch(error){
