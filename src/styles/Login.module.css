@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #ED4264;
+  background: linear-gradient(
+    to right,
+    #ED4264,#FFEDBC
+  );
+}
+h3{
+    text-align: center;
+    color: white;
+}
+form{
+    border-radius: 25px ;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    padding: 15px;
+}
+label{
+    float:left;
+}
+input{
+    float:right;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding-left: 10px;
+}

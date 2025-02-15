@@ -1,0 +1,47 @@
+.container{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+ 
+}
+.bmi{
+  background: #141E30;
+ 
+    width: 50%;
+   height: 100vh;
+   padding-left: 25px;
+}
+h1 ,p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.first_bmi{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: start;
+}
+
+.second_bmi{
+  width: 50%;
+  height: 100vh;
+  background: #FFA17F;
+  background: linear-gradient(
+    to right,
+    #FFA17F,#00223E
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+ color:white ;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#input{
+    
+  width:300px;
+}
