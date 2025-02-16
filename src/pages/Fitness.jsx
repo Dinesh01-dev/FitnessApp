@@ -9,7 +9,7 @@ const Fitness = () => {
 
     const fetchX=async()=>{
         try{
-            const response= await fetch('https://exercisedb.p.rapidapi.com/exercises?limit=10&offset=5',{
+            const response= await fetch('https://exercisedb.p.rapidapi.com/exercises?limit=15&offset=8',{
                 method: 'GET',
                 headers: {
                     'x-rapidapi-key': '6668fff10dmsh5b5fc175d80884dp1c6c06jsn926280daaef0',
