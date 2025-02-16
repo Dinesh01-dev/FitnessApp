@@ -12,7 +12,7 @@ function Login() {
   const[Email,setEmail]=useState('')
   const[password,setPassword]=useState('')
 
-  const navigate=useNavigate()
+  const navigate=useNavigate();
 
   const onSignup=()=>{
       if(Email<16 || password<8){
